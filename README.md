@@ -1,0 +1,1 @@
+# pallet-ajuna-gameregistry
