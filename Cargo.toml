@@ -17,24 +17,24 @@ codec = {default-features = false, features = ['derive','max-encoded-len'], pack
 scale-info = {default-features = false, features = ['derive'], version = '1.0'}
 
 # primitives
-sp-std = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-12'}
-sp-runtime = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-12'}
-sp-io = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-12'}
+sp-std = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', branch = 'master'}
+sp-runtime = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', branch = 'master'}
+sp-io = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', branch = 'master'}
 
 # Substrate dependencies
-frame-benchmarking = {default-features = false, optional = true, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-12'}
-frame-support = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-12'}
-frame-system = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-12'}
+frame-benchmarking = {default-features = false, optional = true, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', branch = 'master'}
+frame-support = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', branch = 'master'}
+frame-system = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', branch = 'master'}
 
-pallet-scheduler = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-12'}
+pallet-scheduler = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', branch = 'master'}
 
 # external pallets
-pallet-matchmaker = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/ajuna-network/pallet-ajuna-matchmaker.git', branch = 'monthly-2021-12'}
+pallet-matchmaker = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/ajuna-network/pallet-ajuna-matchmaker.git', branch = 'master'}
 
 [dev-dependencies]
 serde = '1.0.126'
-sp-core = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-12'}
-frame-support-test = {default-features = false, version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', tag = 'monthly-2021-12'}
+sp-core = {default-features = false, version = '4.0.0-dev', git = 'https://github.com/paritytech/substrate.git', branch = 'master'}
+frame-support-test = {default-features = false, version = '3.0.0', git = 'https://github.com/paritytech/substrate.git', branch = 'master'}
 
 [features]
 default = ['std']
